@@ -12,7 +12,7 @@ func main() {
 
 	app.Name = "Exifer"
 	app.Usage = "📸 A small CLI tool when use tweets your boast photos."
-	app.Version = "0.0.1"
+	app.Version = "1.0.0"
 
 	app.Action = func(c *cli.Context) error {
 		if c.Bool("image") {
